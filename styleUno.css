@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box; 
+    font-weight: bold;
+}
+
+body, html {
+    /* nos aseguramos que no vayan a haber espacios en blanco  */
+    margin: 0;
+    padding: 0;
+    height: 100%; /*cubre toda la altura*/
+    background-image: url('imagenes/fondo1.png'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+    /* cubre todo el fondo  */
+    background-size: cover; 
+    background-position: center;
+   
+}
+
+.but1{
+    
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 40%;
+}
+
+.img{
+
+}
+
+
+
